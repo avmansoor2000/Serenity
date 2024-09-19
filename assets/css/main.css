@@ -4328,6 +4328,10 @@ select {
   background: #ffffff;
   overflow: hidden;
   display: flex;
+  /* flex-direction: column;
+    height: 100%;
+    margin-top: 50px; */
+
   align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
@@ -8042,13 +8046,78 @@ select {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-team-progress-area {
-    padding-bottom: 70px;
+       padding-bottom: 70px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-team-progress-area {
     padding-bottom: 75px;
   }
+}
+
+
+
+
+
+/* Additional CSS */
+.hero-logo{
+  background-color: red;
+  margin-top: 35px;
+}
+
+
+
+
+/* Navbar */
+.navbar-collapse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #3e4149;
+}
+.navbar-toggler,
+.navbar-brand {
+  z-index: 1;
+}
+.navbar-brand {
+  font-size: 1.8em;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-collapse .nav-link {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.navbar-collapse .nav-link:hover,
+.navbar-collapse .nav-link.active {
+  color: darkseagreen;
+}
+.nav-item:not(:last-child) {
+  border-bottom: 1px solid gray;
+  padding: 0.2em 4em;
+}
+@media screen and (min-width: 768px) {
+  .nav-item:not(:last-child) {
+    padding: 0.5em 8em;
+  }
+}
+.navbar-collapse.show {
+  transition: all 0.5s;
+}
+
+.hero-section {
+  background: url("https://codingyaar.com/wp-content/uploads/body-bg.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */
