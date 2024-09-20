@@ -4322,12 +4322,14 @@ select {
 }
 
 .tp-service-three {
+  min-height: 550px;
   padding: 20px;
   box-shadow: 0px 5px 20px 0px rgba(5, 7, 80, 0.06);
   border-radius: 3px;
   background: #ffffff;
   overflow: hidden;
   display: flex;
+  padding-bottom: 20px;
   /* flex-direction: column;
     height: 100%;
     margin-top: 50px; */
@@ -4382,6 +4384,10 @@ select {
   font-size: 16px;
   color: #66686b;
 }
+/* .tp-service-three-text-btn{
+  margin-top: auto;
+  padding-top: 10px;
+} */
 .tp-service-three-text-btn a {
   height: 55px;
   line-height: 55px;
